@@ -76,7 +76,7 @@
 .texto__sobre-mim {
     width: 60%;
     margin: 2rem auto;
-    text-align: justify;
+    text-align: center;
     font-size: 22px;
     color: white;
 }
