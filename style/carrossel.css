@@ -1,0 +1,118 @@
+.carrossel {
+    border: 1.8px solid lightgrey;
+    margin: 2rem auto;
+    width: 25vw;
+    height: 50vh;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgba(26, 188, 156, 255);
+    box-shadow: 10px 10px 15px black;
+}
+
+.container {
+    width: 24.7vw;
+    height: 50vh;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    overflow: hidden;
+}
+
+.item {
+    width: 24.7vw;
+    height: 50vh;
+    transition: all 01s;
+}
+
+.item img {
+    width: 24.7vw;
+    height: 50vh;
+    padding: 30px;
+}
+
+.acao {
+    display: flex;
+    align-items: center;
+    font-size: 50px;
+    font-weight: bold;
+    color: transparent;
+    height: 100%;
+    border-radius: 15px;
+    transition: all 0.7s;
+    z-index: 1;
+}
+
+.item:first-child {
+    margin-left: -100%;
+}
+
+.acao:hover {
+    background-color: rgba(0, 0, 0, 0.3);
+    color: black;
+    cursor: pointer;
+}
+
+.botao1 {
+    border-radius: 13px 0 0 13px;
+}
+
+.botao2 {
+    border-radius: 0 13px 13px 0;
+}
+
+@media (min-width: 350px) {
+    .carrossel {
+        width: 85vw;
+    }
+
+    .container {
+        width: 84.6vw;
+    }
+
+    .item {
+        width: 84vw;
+    }
+
+    .item img {
+        width: 84vw;
+    }
+}
+
+@media (min-width: 801px) {
+    .carrossel {
+        width: 60vw;
+    }
+
+    .container {
+        width: 59.7vw;
+    }
+
+    .item {
+        width: 60vw;
+    }
+
+    .item img {
+        width: 60vw;
+    }
+}
+
+@media (min-width: 1160px) {
+    .carrossel {
+        width: 40vw;
+    }
+
+    .container {
+        width: 39.8vw;
+    }
+
+    .item {
+        width: 39.6vw;
+    }
+
+    .item img {
+        width: 39.6vw;
+    }
+}
