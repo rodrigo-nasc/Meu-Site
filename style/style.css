@@ -1,6 +1,10 @@
-.navbar {
+.cabecalho {
     background-color: rgba(44, 62, 80, 255);
-    padding: 20px;
+    padding: 30px 0;
+}
+
+.navbar {
+    padding: 10px;
 }
 
 .titulo__principal {
@@ -9,7 +13,7 @@
 }
 
 .cabecalho__ancoras {
-    margin-top: 2rem;
+    margin-top: 1rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -31,8 +35,8 @@
 }
 
 .cabecalho__imagem {
-    margin: 2rem auto;
-    width: 30%;
+    margin: 0 auto;
+    width: 35%;
 }
 
 .imagem {
@@ -42,7 +46,7 @@
 
 .nome {
     color: white;
-    font-size: 30px;
+    font-size: 45px;
     font-weight: bold;
 }
 
@@ -138,11 +142,16 @@
 .rodape__email:hover {
     border-bottom: 2px solid rgb(171, 103, 235);
     transition: 0.6s;
+    color: orange;
 }
 
 .icones__redes-sociais {
     width: 50px;
     margin-left: 1rem;
+}
+
+.icones__redes-sociais:hover {
+    width: 51px;
 }
 
 .card1 {
@@ -310,6 +319,10 @@
     .principal__card {
         width: 47%;
         flex-grow: 1;
+    }
+
+    .botao__whats {
+        display: block;
     }
 }
 
