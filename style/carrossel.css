@@ -110,22 +110,22 @@
 @media (min-width: 800px) {
     .carrossel {
         width: 50vw;
-        height: 65vh;
+        height: 55vh;
     }
 
     .container {
         width: 49.7vw;
-        height: 65vh;
+        height: 55vh;
     }
 
     .item {
         width: 50vw;
-        height: 65vh;
+        height: 55vh;
     }
 
     .item img {
         width: 50vw;
-        height: 65vh;
+        height: 55vh;
     }
 }
 
