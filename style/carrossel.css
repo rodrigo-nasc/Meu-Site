@@ -85,7 +85,29 @@
     }
 }
 
-@media (min-width: 801px) {
+@media (min-width: 700px) {
+    .carrossel {
+        width: 55vw;
+        height: 45vh;
+    }
+
+    .container {
+        width: 54.7vw;
+        height: 45vh;
+    }
+
+    .item {
+        width: 55vw;
+        height: 45vh;
+    }
+
+    .item img {
+        width: 55vw;
+        height: 45vh;
+    }
+}
+
+@media (min-width: 800px) {
     .carrossel {
         width: 50vw;
         height: 50vh;

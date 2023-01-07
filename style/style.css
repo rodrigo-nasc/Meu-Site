@@ -309,6 +309,7 @@
 
     .principal__card {
         width: 47%;
+        flex-grow: 1;
     }
 }
 
