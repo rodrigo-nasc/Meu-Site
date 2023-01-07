@@ -1,11 +1,10 @@
-.navbar {
-    background-color: rgba(44, 62, 80, 255);
-    padding: 20px;
+.cabecalho {
+    background: linear-gradient(180deg, #191970, #483d8b, #6959cd);
+    padding: 3rem;
 }
 
-.titulo__principal {
-    color: white;
-    font-size: 40px;
+.navbar {
+    padding: 20px;
 }
 
 .cabecalho__ancoras {
@@ -31,19 +30,26 @@
 }
 
 .cabecalho__imagem {
-    margin: 2rem auto;
+    margin: 0 auto;
     width: 50%;
 }
 
 .imagem {
     border-radius: 50%;
     border: 1px solid lightgray;
+    margin-bottom: 2rem;
 }
 
 .nome {
     color: white;
     font-size: 30px;
     font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.profissao {
+    font-size: 30px;
+    color: #ead5f9;
 }
 
 .principal__portfolio {
@@ -76,7 +82,7 @@
 .texto__sobre-mim {
     width: 60%;
     margin: 2rem auto;
-    text-align: start;
+    text-align: center;
     font-size: 22px;
     color: white;
 }
@@ -97,7 +103,7 @@
 }
 
 .rodape {
-    background-color: rgba(44, 62, 80, 255);
+    background: linear-gradient(180deg, #191970, #483d8b, #6959cd);
     padding: 15px;
 }
 
@@ -138,11 +144,16 @@
 .rodape__email:hover {
     border-bottom: 2px solid rgb(171, 103, 235);
     transition: 0.6s;
+    color: orange;
 }
 
 .icones__redes-sociais {
     width: 50px;
     margin-left: 1rem;
+}
+
+.icones__redes-sociais:hover {
+    width: 51px;
 }
 
 .card1 {
@@ -213,7 +224,7 @@
 
 .gif {
     width: 70px;
-    margin-left: 2rem;
+    margin-left: 0.5rem;
 }
 
 .botao {
@@ -249,7 +260,7 @@
 }
 
 .whats {
-    width: 60px;
+    width: 50px;
     margin: 0 1rem 0 0;
 }
 
@@ -263,6 +274,10 @@
 }
 
 @media (min-width: 350px) {
+    .cabecalho__imagem {
+        width: 100%;
+    }
+
     .cabecalho__ancoras {
         flex-direction: column;
     }
@@ -274,7 +289,7 @@
     }
 
     .imagem {
-        width: 25%;
+        width: 50%;
     }
 
     .principal__portfolio {
@@ -310,6 +325,14 @@
     .principal__card {
         width: 47%;
     }
+
+    .botao__whats {
+        display: block;
+    }
+
+    .imagem {
+        width: 25%;
+    }
 }
 
 @media (min-width: 1020px) {
@@ -319,5 +342,9 @@
 
     .cabecalho__ancoras {
         flex-direction: row;
+    }
+
+    .imagem {
+        width: 15%;
     }
 }
