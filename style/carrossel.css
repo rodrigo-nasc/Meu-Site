@@ -65,22 +65,22 @@
 
 @media (min-width: 350px) {
     .carrossel {
-        width: 60vw;
+        width: 64vw;
         height: 40vh;
     }
 
     .container {
-        width: 59.6vw;
+        width: 63.6vw;
         height: 40vh;
     }
 
     .item {
-        width: 60vw;
+        width: 64vw;
         height: 40vh;
     }
 
     .item img {
-        width: 60vw;
+        width: 64vw;
         height: 40vh;
     }
 }
