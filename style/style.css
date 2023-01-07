@@ -1,14 +1,15 @@
-.cabecalho {
+.navbar {
     background-color: rgba(44, 62, 80, 255);
-    padding: 30px 0;
+    padding: 20px;
 }
 
-.navbar {
-    padding: 10px;
+.titulo__principal {
+    color: white;
+    font-size: 40px;
 }
 
 .cabecalho__ancoras {
-    margin-top: 1rem;
+    margin-top: 2rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -30,7 +31,8 @@
 }
 
 .cabecalho__imagem {
-    margin: 0 auto;
+    margin: 2rem auto;
+    width: 50%;
 }
 
 .imagem {
@@ -40,14 +42,7 @@
 
 .nome {
     color: white;
-    font-size: 45px;
-    font-weight: bold;
-    margin: 2rem 0;
-}
-
-.profissao {
-    color: lightgray;
-    font-size: 40px;
+    font-size: 30px;
     font-weight: bold;
 }
 
@@ -81,7 +76,7 @@
 .texto__sobre-mim {
     width: 60%;
     margin: 2rem auto;
-    text-align: center;
+    text-align: start;
     font-size: 22px;
     color: white;
 }
@@ -143,16 +138,11 @@
 .rodape__email:hover {
     border-bottom: 2px solid rgb(171, 103, 235);
     transition: 0.6s;
-    color: orange;
 }
 
 .icones__redes-sociais {
     width: 50px;
     margin-left: 1rem;
-}
-
-.icones__redes-sociais:hover {
-    width: 51px;
 }
 
 .card1 {
@@ -223,7 +213,7 @@
 
 .gif {
     width: 70px;
-    margin-left: 0.5rem;
+    margin-left: 2rem;
 }
 
 .botao {
@@ -254,12 +244,12 @@
 .botao__whats {
     position: fixed;
     bottom: 15px;
-    left: 5px;
+    left: 15px;
     align-items: center;
 }
 
 .whats {
-    width: 45px;
+    width: 60px;
     margin: 0 1rem 0 0;
 }
 
@@ -273,9 +263,6 @@
 }
 
 @media (min-width: 350px) {
-    .cabecalho__imagem {
-        width: 100%;
-    }
     .cabecalho__ancoras {
         flex-direction: column;
     }
@@ -322,11 +309,6 @@
 
     .principal__card {
         width: 47%;
-        flex-grow: 1;
-    }
-
-    .botao__whats {
-        display: block;
     }
 }
 
