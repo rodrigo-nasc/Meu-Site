@@ -7,11 +7,6 @@
     padding: 10px;
 }
 
-.titulo__principal {
-    color: white;
-    font-size: 40px;
-}
-
 .cabecalho__ancoras {
     margin-top: 1rem;
     display: flex;
@@ -36,7 +31,6 @@
 
 .cabecalho__imagem {
     margin: 0 auto;
-    width: 35%;
 }
 
 .imagem {
@@ -48,7 +42,7 @@
     color: white;
     font-size: 45px;
     font-weight: bold;
-    margin-bottom: 1rem;
+    margin: 2rem 0;
 }
 
 .profissao {
