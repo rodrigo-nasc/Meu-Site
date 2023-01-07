@@ -253,12 +253,12 @@
 .botao__whats {
     position: fixed;
     bottom: 15px;
-    left: 15px;
+    left: 5px;
     align-items: center;
 }
 
 .whats {
-    width: 60px;
+    width: 45px;
     margin: 0 1rem 0 0;
 }
 
