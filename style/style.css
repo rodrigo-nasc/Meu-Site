@@ -1,350 +1,350 @@
 .cabecalho {
-    background: linear-gradient(180deg, #191970, #483d8b, #6959cd);
-    padding: 3rem;
+  background: linear-gradient(180deg, #191970, #483d8b, #6959cd);
+  padding: 3rem;
 }
 
 .navbar {
-    padding: 20px;
+  padding: 20px;
 }
 
 .cabecalho__ancoras {
-    margin-top: 2rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .ancora__nav {
-    margin: 1rem;
-    text-decoration: none;
-    color: white;
-    font-size: 30px;
-    font-weight: bold;
-    border-bottom: 4px solid transparent;
+  margin: 1rem;
+  text-decoration: none;
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+  border-bottom: 4px solid transparent;
 }
 
 .ancora__nav:hover {
-    border-bottom: 4px solid rgb(171, 103, 235);
-    transition: 0.6s;
-    color: orange;
+  border-bottom: 4px solid rgb(171, 103, 235);
+  transition: 0.6s;
+  color: orange;
 }
 
 .cabecalho__imagem {
-    margin: 0 auto;
-    width: 50%;
+  margin: 0 auto;
+  width: 50%;
 }
 
 .imagem {
-    border-radius: 50%;
-    border: 1px solid lightgray;
-    margin-bottom: 2rem;
+  border-radius: 50%;
+  border: 1px solid lightgray;
+  margin-bottom: 2rem;
 }
 
 .nome {
-    color: white;
-    font-size: 30px;
-    font-weight: bold;
-    margin-bottom: 1rem;
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 1rem;
 }
 
 .profissao {
-    font-size: 30px;
-    color: #ead5f9;
+  font-size: 30px;
+  color: #ead5f9;
 }
 
 .principal__portfolio {
-    width: 80%;
-    margin: 0 auto;
-    display: flex;
-    margin-bottom: 2rem;
-    align-items: center;
-    flex-flow: row wrap;
-    justify-content: center;
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  margin-bottom: 2rem;
+  align-items: center;
+  flex-flow: row wrap;
+  justify-content: center;
 }
 
 .titulo__portfolio {
-    font-size: 35px;
-    color: rgba(44, 62, 80, 255);
-    margin: 3rem 0 0 0;
+  font-size: 35px;
+  color: rgba(44, 62, 80, 255);
+  margin: 3rem 0 0 0;
 }
 
 .principal__sobre-mim {
-    width: 90%;
-    margin: 0 auto;
+  width: 90%;
+  margin: 0 auto;
 }
 
 .titulo__sobre-mim {
-    font-size: 35px;
-    color: rgba(44, 62, 80, 255);
-    margin: 3rem 0 0 0;
+  font-size: 35px;
+  color: rgba(44, 62, 80, 255);
+  margin: 3rem 0 0 0;
 }
 
 .texto__sobre-mim {
-    width: 60%;
-    margin: 2rem auto;
-    text-align: center;
-    font-size: 22px;
-    color: white;
+  width: 60%;
+  margin: 2rem auto;
+  text-align: center;
+  font-size: 22px;
+  color: white;
 }
 
 .principal__card {
-    width: 32%;
-    height: 300px;
-    border-radius: 18px;
-    display: flex;
-    align-items: flex-end;
-    cursor: pointer;
-    box-shadow: 10px 10px 15px black;
-    margin: 1rem 0.5rem;
+  width: 32%;
+  height: 300px;
+  border-radius: 18px;
+  display: flex;
+  align-items: flex-end;
+  cursor: pointer;
+  box-shadow: 10px 10px 15px black;
+  margin: 1rem 0.5rem;
 }
 
 .principal__card:hover {
-    border: 2px solid lightgray;
+  border: 2px solid lightgray;
 }
 
 .rodape {
-    background: linear-gradient(180deg, #191970, #483d8b, #6959cd);
-    padding: 15px;
+  background: linear-gradient(180deg, #191970, #483d8b, #6959cd);
+  padding: 15px;
 }
 
 .redes__sociais {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
 }
 
 .rodape__contato {
-    font-size: 30px;
-    font-weight: bold;
-    color: orange;
+  font-size: 30px;
+  font-weight: bold;
+  color: orange;
 }
 
 .titulo__rodape {
-    color: white;
-    font-size: 20px;
-    font-weight: bold;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
 }
 
 .rodape__telefone {
-    margin: 1rem 0;
-    color: orange;
-    font-size: 20px;
-    font-weight: bold;
+  margin: 1rem 0;
+  color: orange;
+  font-size: 20px;
+  font-weight: bold;
 }
 
 .rodape__email {
-    text-decoration: none;
-    color: white;
-    font-size: 20px;
-    font-weight: bold;
-    border-bottom: 2px solid transparent;
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  border-bottom: 2px solid transparent;
 }
 
 .rodape__email:hover {
-    border-bottom: 2px solid rgb(171, 103, 235);
-    transition: 0.6s;
-    color: orange;
+  border-bottom: 2px solid rgb(171, 103, 235);
+  transition: 0.6s;
+  color: orange;
 }
 
 .icones__redes-sociais {
-    width: 50px;
-    margin-left: 1rem;
+  width: 50px;
+  margin-left: 1rem;
 }
 
 .icones__redes-sociais:hover {
-    width: 51px;
+  width: 51px;
 }
 
 .card1 {
-    background: url(../img/site1.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+  background: url(../img/site1.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 .card2 {
-    background: url(../img/site.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+  background: url(../img/site.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 .card3 {
-    background: url(../img/calculadora.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+  background: url(../img/calculadora.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 .card4 {
-    background: url(../img/listaTarefas.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+  background: url(../img/listaTarefas.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 .card5 {
-    background: url(../img/games.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+  background: url(../img/alura+.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 .card6 {
-    background: url(../img/padaria.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+  background: url(../img/padaria.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 .ancora__card {
-    text-decoration: none;
-    color: white;
-    background-color: rgba(72, 61, 139, 1);
-    width: 100%;
-    padding: 15px;
-    border-radius: 0 0 17px 17px;
-    font-weight: bold;
-    font-size: 20px;
-    border-top: 2px solid lightgray;
-    font-weight: bold;
+  text-decoration: none;
+  color: white;
+  background-color: rgba(72, 61, 139, 1);
+  width: 100%;
+  padding: 15px;
+  border-radius: 0 0 17px 17px;
+  font-weight: bold;
+  font-size: 20px;
+  border-top: 2px solid lightgray;
+  font-weight: bold;
 }
 
 .div__gif {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 2rem 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 2rem 0;
 }
 
 .titulo__gif {
-    color: white;
+  color: white;
 }
 
 .gif {
-    width: 70px;
-    margin-left: 0.5rem;
+  width: 70px;
+  margin-left: 0.5rem;
 }
 
 .botao {
-    text-align: right;
+  text-align: right;
 }
 
 .botao__topo {
-    text-decoration: none;
-    border: 2px solid transparent;
-    text-align: right;
-    padding: 8px;
-    border-radius: 5px;
-    background-color: transparent;
+  text-decoration: none;
+  border: 2px solid transparent;
+  text-align: right;
+  padding: 8px;
+  border-radius: 5px;
+  background-color: transparent;
 }
 
 .botao__topo:hover {
-    border-bottom: 2px solid rgb(171, 103, 235);
-    transition: 0.5s;
+  border-bottom: 2px solid rgb(171, 103, 235);
+  transition: 0.5s;
 }
 
 .ancora__topo {
-    text-decoration: none;
-    color: white;
-    font-size: 18px;
-    font-family: "Josefin Sans", sans-serif;
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  font-family: "Josefin Sans", sans-serif;
 }
 
 .botao__whats {
-    position: fixed;
-    bottom: 15px;
-    left: 15px;
-    align-items: center;
+  position: fixed;
+  bottom: 15px;
+  left: 15px;
+  align-items: center;
 }
 
 .whats {
-    width: 50px;
-    margin: 0 1rem 0 0;
+  width: 50px;
+  margin: 0 1rem 0 0;
 }
 
 .ancora__whats {
-    text-decoration: none;
-    display: flex;
-    align-items: center;
-    color: orange;
-    font-weight: bold;
-    font-size: 20px;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  color: orange;
+  font-weight: bold;
+  font-size: 20px;
 }
 
 @media (min-width: 350px) {
-    .cabecalho__imagem {
-        width: 100%;
-    }
+  .cabecalho__imagem {
+    width: 100%;
+  }
 
-    .cabecalho__ancoras {
-        flex-direction: column;
-    }
+  .cabecalho__ancoras {
+    flex-direction: column;
+  }
 
-    .texto__sobre-mim {
-        width: 98%;
-        margin: 1.5rem auto;
-        font-size: 28px;
-    }
+  .texto__sobre-mim {
+    width: 98%;
+    margin: 1.5rem auto;
+    font-size: 28px;
+  }
 
-    .imagem {
-        width: 50%;
-    }
+  .imagem {
+    width: 50%;
+  }
 
-    .principal__portfolio {
-        width: 90%;
-    }
+  .principal__portfolio {
+    width: 90%;
+  }
 
-    .principal__card {
-        width: 100%;
-    }
+  .principal__card {
+    width: 100%;
+  }
 
-    .redes__sociais {
-        flex-direction: column;
-    }
+  .redes__sociais {
+    flex-direction: column;
+  }
 
-    .rodape__icones {
-        margin: 1.5rem 0;
-    }
+  .rodape__icones {
+    margin: 1.5rem 0;
+  }
 
-    .botao__whats {
-        display: none;
-    }
+  .botao__whats {
+    display: none;
+  }
 }
 
 @media (min-width: 600px) {
-    .texto__sobre-mim {
-        width: 95%;
-    }
+  .texto__sobre-mim {
+    width: 95%;
+  }
 
-    .botao {
-        text-align: center;
-    }
+  .botao {
+    text-align: center;
+  }
 
-    .principal__card {
-        width: 47%;
-    }
+  .principal__card {
+    width: 47%;
+  }
 
-    .botao__whats {
-        display: block;
-    }
+  .botao__whats {
+    display: block;
+  }
 
-    .imagem {
-        width: 25%;
-    }
+  .imagem {
+    width: 25%;
+  }
 }
 
 @media (min-width: 1020px) {
-    .principal__card {
-        width: 31%;
-    }
+  .principal__card {
+    width: 31%;
+  }
 
-    .cabecalho__ancoras {
-        flex-direction: row;
-    }
+  .cabecalho__ancoras {
+    flex-direction: row;
+  }
 
-    .imagem {
-        width: 15%;
-    }
+  .imagem {
+    width: 15%;
+  }
 }
