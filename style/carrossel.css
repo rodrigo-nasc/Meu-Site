@@ -38,11 +38,12 @@
     align-items: center;
     font-size: 50px;
     font-weight: bold;
-    color: transparent;
     height: 100%;
     border-radius: 15px;
     transition: all 0.7s;
     z-index: 1;
+    color: white;
+    text-shadow: 2px 2px 5px black;
 }
 
 .item:first-child {
@@ -51,7 +52,6 @@
 
 .acao:hover {
     background-color: rgba(0, 0, 0, 0.3);
-    color: black;
     cursor: pointer;
 }
 

@@ -1,91 +1,91 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylesheet" href="./style/principal.css" />
-    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/@mdi/font@6.9.96/css/materialdesignicons.min.css" />
-  </head>
-  <body class="corpo">
-    <header class="cabecalho">
-      <div class="cabecalho__imagem">
-        <img class="imagem" src="./img/1663522060032.jpg" alt="" />
-        <h1 class="nome">Rodrigo Santos</h1>
-        <h2 class="profissao">Desenvolvedor Web</h2>
-      </div>
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <link rel="stylesheet" href="./style/principal.css" />
+        <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/@mdi/font@6.9.96/css/materialdesignicons.min.css" />
+    </head>
+    <body class="corpo">
+        <header class="cabecalho" id="topo">
+            <div class="cabecalho__imagem">
+                <img class="imagem" src="./img/1663522060032.jpg" alt="" />
+                <h1 class="nome">Rodrigo Santos</h1>
+                <h2 class="profissao">Desenvolvedor Web</h2>
+            </div>
 
-      <div class="navbar">
-        <div class="cabecalho__ancoras">
-          <a class="ancora__nav" href="#sobreMim">Sobre mim</a>
-          <a class="ancora__nav" href="#portfolio">Portfólio</a>
-          <a class="ancora__nav" href="#contato">Contato</a>
-        </div>
-      </div>
-    </header>
+            <div class="navbar">
+                <div class="cabecalho__ancoras">
+                    <a class="ancora__nav" href="#sobreMim">Sobre mim</a>
+                    <a class="ancora__nav" href="#portfolio">Portfólio</a>
+                    <a class="ancora__nav" href="#contato">Contato</a>
+                </div>
+            </div>
+        </header>
 
-    <main class="principal">
-      <div class="principal__sobre-mim" id="sobreMim">
-        <h3 class="titulo__sobre-mim">Sobre Mim</h3>
-        <p class="texto__sobre-mim">
-          Sempre gostei de tecnologia, em especial desenvolvimento web. Há 6 meses comecei estudar sobre a área e hoje tenho conhecimentos em HTML, CSS e
-          JavaScript. Estou procurando a minha primeira oportunidade na área para desenvolver ainda mais o que estou aprendendo. Abaixo você poderá conhecer um
-          pouco mais sobre minhas habilidades e meu trabalho!!!
-        </p>
-      </div>
+        <main class="principal">
+            <div class="principal__sobre-mim" id="sobreMim">
+                <h3 class="titulo__sobre-mim">Sobre Mim</h3>
+                <p class="texto__sobre-mim">
+                    Sempre gostei de tecnologia, em especial desenvolvimento web. Há 6 meses comecei estudar sobre a área e hoje tenho conhecimentos em HTML, CSS e JavaScript.
+                    Estou procurando a minha primeira oportunidade na área para desenvolver ainda mais o que estou aprendendo. Abaixo você poderá conhecer um pouco mais sobre
+                    minhas habilidades e meu trabalho!!!
+                </p>
+            </div>
 
-      <h3 class="titulo__portfolio" id="portfolio">Portfólio</h3>
+            <h3 class="titulo__portfolio" id="portfolio">Portfólio</h3>
 
-      <div class="principal__portfolio">
-        <div class="principal__card card1"><a class="ancora__card" href="https://onebitcode-eta.vercel.app/">Loja Materiais Esportivos</a></div>
-        <div class="principal__card card2"><a class="ancora__card" href="https://7-days-code.vercel.app/">Optimus Tech</a></div>
-        <div class="principal__card card3"><a class="ancora__card" href="https://calculadora-six-pi.vercel.app/">Calculadora</a></div>
-        <div class="principal__card card4"><a class="ancora__card" href="https://lista-de-tarefas-amber.vercel.app/">Lista de Tarefas</a></div>
-        <div class="principal__card card5"><a class="ancora__card" href="https://vercel.com/rodrigo-nasc/aluraplus">Alura PLus</a></div>
-        <div class="principal__card card6"><a class="ancora__card" href="https://padaria-eta.vercel.app/">Padaria</a></div>
-      </div>
+            <div class="principal__portfolio">
+                <div class="principal__card card1"><a class="ancora__card" href="https://onebitcode-eta.vercel.app/">Loja Materiais Esportivos</a></div>
+                <div class="principal__card card2"><a class="ancora__card" href="https://7-days-code.vercel.app/">Optimus Tech</a></div>
+                <div class="principal__card card3"><a class="ancora__card" href="https://calculadora-six-pi.vercel.app/">Calculadora</a></div>
+                <div class="principal__card card4"><a class="ancora__card" href="https://lista-de-tarefas-amber.vercel.app/">Lista de Tarefas</a></div>
+                <div class="principal__card card5"><a class="ancora__card" href="https://vercel.com/rodrigo-nasc/aluraplus">Alura PLus</a></div>
+                <div class="principal__card card6"><a class="ancora__card" href="https://padaria-eta.vercel.app/">Padaria</a></div>
+            </div>
 
-      <h3 class="titulo__portfolio">Conhecimentos e habilidades</h3>
+            <h3 class="titulo__portfolio">Conhecimentos e habilidades</h3>
 
-      <section class="carrossel">
-        <div class="acao botao1 mdi mdi-arrow-left" id="previous"></div>
-        <div class="container" id="container-items"></div>
-        <div class="acao botao2 mdi mdi-arrow-right" id="next"></div>
-      </section>
-    </main>
+            <section class="carrossel">
+                <div class="acao botao1 mdi mdi-arrow-left" id="previous"></div>
+                <div class="container" id="container-items"></div>
+                <div class="acao botao2 mdi mdi-arrow-right" id="next"></div>
+            </section>
+        </main>
 
-    <footer class="rodape" id="contato">
-      <h3 class="rodape__contato">Contatos</h3>
-      <p class="rodape__telefone">Telefone: 014 98812 9119</p>
-      <a class="rodape__email" href="mailto:rodrigonasc83@gmail.com">E-mail: clique aqui</a>
+        <footer class="rodape" id="contato">
+            <h3 class="rodape__contato">Contatos</h3>
+            <p class="rodape__telefone">Telefone: 014 98812 9119</p>
+            <a class="rodape__email" href="mailto:rodrigonasc83@gmail.com">E-mail: clique aqui</a>
 
-      <div class="div__gif">
-        <h3 class="titulo__gif">Venha tomar um café comigo</h3>
-        <img class="gif" src="./img/cafe.png" alt="" />
-      </div>
+            <div class="div__gif">
+                <h3 class="titulo__gif">Venha tomar um café comigo</h3>
+                <img class="gif" src="./img/cafe.png" alt="" />
+            </div>
 
-      <div class="redes__sociais">
-        <h3 class="titulo__rodape">Também estou nas redes sociais:</h3>
-        <div class="rodape__icones">
-          <a href=""><img class="icones__redes-sociais" src="./img/facebook.png" alt="" /></a>
-          <a href=""><img class="icones__redes-sociais" src="./img/instagram.png" alt="" /></a>
-          <a href="https://www.linkedin.com/in/rodrigo-santos-a956581a1/"><img class="icones__redes-sociais" src="./img/linkedin.png" alt="" /></a>
-          <a href=""><img class="icones__redes-sociais" src="./img/pinterest.png" alt="" /></a>
-        </div>
-      </div>
+            <div class="redes__sociais">
+                <h3 class="titulo__rodape">Também estou nas redes sociais:</h3>
+                <div class="rodape__icones">
+                    <a href=""><img class="icones__redes-sociais" src="./img/facebook.png" alt="" /></a>
+                    <a href=""><img class="icones__redes-sociais" src="./img/instagram.png" alt="" /></a>
+                    <a href="https://www.linkedin.com/in/rodrigo-santos-a956581a1/"><img class="icones__redes-sociais" src="./img/linkedin.png" alt="" /></a>
+                    <a href=""><img class="icones__redes-sociais" src="./img/pinterest.png" alt="" /></a>
+                </div>
+            </div>
 
-      <div class="botao">
-        <button class="botao__topo"><a class="ancora__topo" href="#topo">Voltar para o topo</a></button>
-      </div>
+            <div class="botao">
+                <button class="botao__topo"><a class="ancora__topo" href="#topo">Voltar para o topo</a></button>
+            </div>
 
-      <div class="botao__whats">
-        <a class="ancora__whats" href="https://wa.me/5514988129119?text=Ol%C3%A1%2C+peguei+seu+contato+no+site%21%21%21"
-          ><img class="whats" src="./img/whatsapp.png" alt=""
-        /></a>
-      </div>
-    </footer>
+            <div class="botao__whats">
+                <a class="ancora__whats" href="https://wa.me/5514988129119?text=Ol%C3%A1%2C+peguei+seu+contato+no+site%21%21%21"
+                    ><img class="whats" src="./img/whatsapp.png" alt=""
+                /></a>
+            </div>
+        </footer>
 
-    <script src="./main.js"></script>
-  </body>
+        <script src="./main.js"></script>
+    </body>
 </html>
