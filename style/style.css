@@ -1,5 +1,5 @@
 .cabecalho {
-    background: linear-gradient(180deg, #191970, #483d8b, #6959cd);
+    background:linear-gradient(180deg, #008B8B, #459a9a,#649191);
     padding: 3rem;
 }
 
@@ -19,14 +19,12 @@
     text-decoration: none;
     color: white;
     font-size: 30px;
-    font-weight: bold;
     border-bottom: 4px solid transparent;
 }
 
 .ancora__nav:hover {
-    border-bottom: 4px solid rgb(171, 103, 235);
-    transition: 0.6s;
-    color: orange;
+   transition: 0.3s;
+    color: 	#3d3939;
 }
 
 .cabecalho__imagem {
@@ -41,15 +39,15 @@
 }
 
 .nome {
-    color: white;
-    font-size: 30px;
+    color:  #3d3939;
+    font-size: 39px;
     font-weight: bold;
     margin-bottom: 1rem;
 }
 
 .profissao {
     font-size: 30px;
-    color: #ead5f9;
+    color: #3d3939;
 }
 
 .principal__portfolio {
@@ -64,7 +62,7 @@
 
 .titulo__portfolio {
     font-size: 35px;
-    color: rgba(44, 62, 80, 255);
+    color: #3d3939;
     margin: 3rem 0 0 0;
 }
 
@@ -75,7 +73,7 @@
 
 .titulo__sobre-mim {
     font-size: 35px;
-    color: rgba(44, 62, 80, 255);
+    color: #3d3939;
     margin: 3rem 0 0 0;
 }
 
@@ -84,7 +82,7 @@
     margin: 2rem auto;
     text-align: center;
     font-size: 22px;
-    color: white;
+    color: #3d3939;
 }
 
 .principal__card {
@@ -94,7 +92,7 @@
     display: flex;
     align-items: flex-end;
     cursor: pointer;
-    box-shadow: 10px 10px 15px black;
+    box-shadow: 5px 5px 3px rgb(164, 152, 152);
     margin: 1rem 0.5rem;
 }
 
@@ -103,7 +101,7 @@
 }
 
 .rodape {
-    background: linear-gradient(180deg, #191970, #483d8b, #6959cd);
+    background-color: #008B8B;
     padding: 15px;
 }
 
@@ -117,7 +115,7 @@
 .rodape__contato {
     font-size: 30px;
     font-weight: bold;
-    color: orange;
+    color: white;
 }
 
 .titulo__rodape {
@@ -128,7 +126,7 @@
 
 .rodape__telefone {
     margin: 1rem 0;
-    color: orange;
+    color: white;
     font-size: 20px;
     font-weight: bold;
 }
@@ -142,9 +140,8 @@
 }
 
 .rodape__email:hover {
-    border-bottom: 2px solid rgb(171, 103, 235);
-    transition: 0.6s;
-    color: orange;
+    transition: 0.2s;
+    color: #3d3939;
 }
 
 .icones__redes-sociais {
